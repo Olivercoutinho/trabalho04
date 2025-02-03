@@ -30,4 +30,4 @@ awk -F ':' 'NR > 10 && NR < 20 {print $1}' /etc/passwd > 3b.txt
 
 sed "s/^$(whoami):/exercicio:/" /etc/passwd > 4a.txt
 
-sed "/^$(whoami):/d" /etc/passwd > 4b.txt#!/bin/bash
+sed "/^$(whoami):/d" /etc/passwd > 4b.txt#!
